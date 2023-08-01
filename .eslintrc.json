@@ -1,0 +1,18 @@
+{
+  "extends": ["plugin:prettier/recommended", "prettier", "next"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "prettier/prettier": [
+      "warn",
+      {
+        "endOfLine": "auto",
+        "singleQuote": true
+      }
+    ]
+  }
+}
